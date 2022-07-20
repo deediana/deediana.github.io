@@ -1,0 +1,84 @@
+h1{
+    color:rgb(144, 0, 255);
+    border-style:double;
+    text-align: center ;
+    
+}
+h2{
+    color:rgba(2, 104, 219, 0.628);
+}
+body{
+    background-color: rgb(58, 205, 190);
+    font-family:cursive;
+    
+}
+a{
+    color: rgb(165, 42, 42);
+
+}
+a{
+    text-decoration: none;
+}
+a:link { 
+    color: #210258; 
+}
+
+a:visited { 
+    color: rgb(165, 42, 42); 
+}
+/* mouse over link */
+a:hover { 
+    color: #FF00FF; 
+    text-decoration: underline;
+}
+/* click on a link */
+a:active {
+     color:rgb(42, 157, 165) ; 
+    }
+
+p::first-letter{
+    font-size: 1.5em;
+}
+
+#italic{
+    font-style: italic;
+    text-shadow: 0em;
+
+}
+.happy{
+    color: rgb(173, 8, 148);
+}
+.feeling{
+    color: rgb(173, 8, 148);
+}
+.order{
+    color: rgb(173, 8, 148);
+}
+
+.food{
+    font-family:'Goudy Old Style';
+    font-weight: bold;
+}
+.light{
+    font-family:'Brush Script MT';
+    font-size: large;
+}
+dt{
+    color: rgb(86, 7, 161);
+    font-weight: bold;
+    font-style: italic;
+}
+ol {
+    counter-reset: my-custom-counter 6;
+    list-style: none;
+  }
+  
+ol li {
+    counter-increment: my-custom-counter -1;
+  }
+  
+ol li::before {
+    content: counter(my-custom-counter) '. ';
+    color: #f23c50;
+
+  }

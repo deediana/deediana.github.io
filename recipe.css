@@ -1,0 +1,91 @@
+h1{
+    color: #A4A400;
+    background-color: #F0F0F0;
+    font-family: 'Lucida Sans Unicode', ' Helvetica', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22pt;
+    text-decoration: underline;
+    letter-spacing: 0.25em;
+}
+
+h2{
+    color: #A4A400;
+    background-color: #F0F0F0;
+    font-family: 'Lucida Sans Unicode', ' Helvetica', sans-serif;
+    text-align: left;
+    font-size: 18pt;
+    text-decoration: underline;
+    letter-spacing: 0.25em;
+}
+
+.container{
+    width: 800px;
+    height: auto;
+    padding-left: 200px;
+}
+
+body{
+    background-color: white;
+    text-decoration-color: #404040 ;
+    font-size: 11pt;
+    font-family: 'Georgia','Garamound', serif;
+    width: 1024px;
+    height: 728px;
+    background-image: url("silverware.jpg");
+    
+}
+
+a{
+    color: #A4A400;
+}
+
+.tablespoon{
+    text-decoration: underline;
+    
+}
+.tablespoon:hover::after{
+    content: "-tablespoon";
+}
+span{
+
+    text-decoration: underline;
+}
+.teaspoon:hover::after{
+    content: "-teaspoon";
+}
+
+.cake{
+    text-decoration: line-through;
+}
+.cake:hover::before{
+    display: block;
+    
+}
+.comment1{
+    text-indent: 50px;
+    background-color: #FFFFA8;
+    
+}
+.comment2{
+    text-indent: 50px;
+    background-color: #FFFFA8;    
+
+}
+.comment3{
+    text-indent: 50px;
+    background-color: #FFFFA8;
+}
+.copyright{
+    font-family: monospace;
+    text-align-last: right;
+    
+    
+}
+.emphasis{
+    font-weight: bold;
+    text-decoration: none;
+}
+.bullet{
+    list-style-image: url(pie_icon.gif);
+}
