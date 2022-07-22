@@ -1,0 +1,143 @@
+body{
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 8pt;
+}
+h1{
+    font-size: 24pt;
+    font-weight: bold;
+    font-family: Tahoma, Verdana, sans-serif;
+    text-shadow: 3px 3px #999999;
+}
+
+.container1{
+    width: 1247px;
+}
+.container2{
+    background-image: url("background.png"); 
+    text-align: center; 
+    width: 1157px;
+    height: 1320px; 
+    padding-left: 90px;
+    margin-top: -25px;
+    
+    
+}
+
+.container3{
+    background-image: url("rbg.png");
+    background-repeat: repeat-x;
+    background-size: 6.1px;
+    border: 4px solid gray;
+    border-radius: 20px;
+    width: 800px;
+    height: 1250px;
+    margin-left: 50px;
+    margin-right: 50px;
+    position: relative;
+    left: 10em;
+    box-sizing: border-box;
+
+
+}
+
+.banner{
+    background-image: url("bannerbg.png");
+    
+
+}
+
+.column1{
+    float: left;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 2px;
+    margin-right: 2px;
+    
+    
+}
+.column2{
+    float: left;
+    height: 500px;
+    margin-top: 50px;
+    padding-right: 10px;
+    margin-left: 2px;
+    margin-right: 2px;  
+}
+.column3{
+    float: right;
+    height: 500px;
+    margin-top: 50px;
+    padding-right: 10px;
+    margin-left: 0px;
+    margin-right: -10px;  
+}
+
+.comment1, .comment6{
+    border: 2px solid gray;
+    border-radius: 12px;
+    margin-top: 10px;
+    overflow-wrap: break-word;  
+    inline-size: 150px;
+    font-weight: bold;
+    font-size: 8pt;
+    background-color: #E8DC9B;
+    padding: 8px;
+    vertical-align: baseline;
+    margin: 20pt auto auto;
+    
+}
+.comment2, .comment3, .comment4, .comment5, .comment7, .comment8, .comment9, .comment10{
+    
+    border: 2px solid gray;
+    border-radius: 12px;
+    overflow-wrap: break-word;  
+    inline-size: 150px;
+    font-weight: bold;
+    font-size: 8pt;
+    background-color: #E8DC9B;
+    padding: 8px;
+    vertical-align: baseline;
+    margin: 20pt auto auto;
+    
+}
+
+.overview{
+    width: 250px;
+    height: 300px;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    margin-top:-50px;
+}
+.test{
+    width: 250px;
+    height: auto;
+    border-radius: 2px;
+    margin-top: 10px;
+    background-color: #A2B964;
+    text-align: left;
+    margin-top: -20px;
+}
+dt{
+    font-weight: bold;
+}
+dd{
+    margin-bottom: 10pt;
+}
+#page{
+    background-color: #A2B964;
+    padding: 5px; 
+    text-align: center;
+    margin: 0px;
+}
+li{
+    list-style-type: none;
+}
+#validator{
+    position:fixed;
+    right: 0;
+    bottom: 0;
+    opacity: 0.5;
+}
+
+
+

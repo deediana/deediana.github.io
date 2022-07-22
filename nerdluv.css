@@ -1,0 +1,160 @@
+body{
+    display: block;
+    margin: 8px;
+}
+#newuser{
+    background-color: white;
+    border: 1px outset gray;
+}
+legend{
+    display: block;
+    padding-inline-start: 2px;
+    padding-inline-end: 2px;
+}
+
+.form{
+    
+    width: 100%;
+    margin-bottom: -1px;
+    font-size: 15pt;
+    
+    box-shadow:rgba(0,0,0,0)
+}
+fieldset{
+    margin-left: 1em;
+    width:34em;
+    background-color: #e0e0ff;
+    border-radius: 10px;
+    border: 2px outset gray;
+    display: block;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    padding-block-start: 0.35em;
+    padding-inline-start: 0.75em;
+    padding-inline-end: 0.75em;
+    padding-block-end: 0.625em;
+    min-inline-size: min-content;
+}
+
+input{
+    padding: 0.2em;
+    border:2px outset gray;
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    
+}
+
+input[type="text"]{
+    background-color:lightgrey;
+    font-weight: bold;
+    padding: 1px 2px;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: field;
+    margin: 0em;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    text-rendering: auto;
+    color: fieldtext;
+    
+}
+
+input[type="radio"]{
+    background-color:initial;
+    font-weight: bold;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 3px 3px 0px 5px;
+
+}
+label{
+    cursor:default;
+    font-weight: bold;
+    text-align: left;
+    float: left;
+    width: 11em;
+    margin-right: 1em;
+
+}
+
+p{
+    font-family: monospace;
+    text-align-last: left;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+a{
+    text-decoration: none;
+    text-decoration-color: plum;
+
+}
+a:link { 
+    color: #210258; 
+}
+
+a:visited { 
+    color: rgb(165, 42, 42); 
+}
+
+a:hover { 
+    color: #FF00FF; 
+    text-decoration: underline;
+}
+
+a:active {
+     color:rgb(42, 157, 165) ; 
+    }
+select{
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    box-sizing: border-box;
+    align-items: center;
+    white-space: pre;
+    -webkit-rtl-ordering: logical;
+    background-color: field;
+    cursor: default;
+    margin: 0em;
+    border-width: 1px;
+    border-style: solid;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    border-radius: 0px;
+
+}
+
+.button{
+    font-size: 90%;
+    font-weight: bold;
+    background: #FFAAAA;
+}

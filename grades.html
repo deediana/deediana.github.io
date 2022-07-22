@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="grades.css" type="text/css" rel="stylesheet"/>
+    <title>Retrieve Grade</title>
+</head>
+<body>
+    <h1>Retrieve Your Grade</h1>
+    <fieldset>
+        <legend>Fill Form</legend> 
+            <form action="http://mumstudents.org/params.php">
+                <fieldset>
+                    <div>
+                        <label>Student Name</label>
+                    </div>
+                    <div>
+                        <input type="text", id = "name", name="name">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <div>
+                        <label>Student ID</label>
+                    </div>
+                    <div>
+                        <input type="text", id = "id", name="id">
+                    </div>
+                </fieldset>
+                
+                <select>
+                    <optgroup label="Assignments">
+                    <option>Select</option>
+                    <option>FPP Assignments</option>
+                    <option>MPP Assignments</option>
+                    <option>SWE Assignments</option>
+                    <option>WAP Assignments</option>
+                    <option>WAA Assignments</option>
+                </select><br><br>
+                
+
+                <label><input type="radio" name="Year of Entry" value="2020">2020</label>
+                <label><input type="radio" name="Year of Entry" value="2021">2021</label>
+                <label><input type="radio" name="Year of Entry" value="2022">2022</label><br/>
+
+                <input type="checkbox" name="q">Check to confirm you are viewing only your grade<br>
+                <input class="button" type="submit" name="submit">
+                <input class="button" type="reset" name="reset"><br><br>
+
+            </form>  
+    </fieldset>
+    <a href="index.html">
+        <p style="color:black ;">Back to main page</p>
+    </a>
+    <a href="http://validator.w3.org/check/referer"><img src="w3c-html.png" alt="Valid HTML5" /></a> <br />
+    <a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="w3c-css.png" alt="Valid CSS" /></a>
+</body>
+</html>
