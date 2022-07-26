@@ -1,0 +1,18 @@
+body{
+    margin:20px;
+    padding:20;
+    border: 2px;
+}
+
+#form{
+    border-style: dotted;
+    margin-right: 700px;
+    background-color: grey;
+}
+h1{
+    
+    background-color: gray;
+    border-style:dotted;
+    margin-right: 700px;
+
+}
