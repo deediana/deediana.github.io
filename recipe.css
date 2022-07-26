@@ -32,7 +32,7 @@ body{
     font-family: 'Georgia','Garamound', serif;
     width: 1024px;
     height: 728px;
-    background-image: url("silverware.jpg");
+    background-image: url("images/silverware.jpg");
     
 }
 
@@ -87,5 +87,5 @@ span{
     text-decoration: none;
 }
 .bullet{
-    list-style-image: url(pie_icon.gif);
+    list-style-image: url(images/pie_icon.gif);
 }
