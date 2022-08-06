@@ -12,7 +12,7 @@ function getPicture(){
     $.ajax({
         url: "https://api.nasa.gov/planetary/apod",
         type: "GET",
-        data: { api_key: "JHMqiQcxfQcbZNCFQbEM6WK1EcWDgo02Mw15pZFY",
+        data: { api_key: "DEMO_KEY",
                 date: $("#date").val()},
         dataType: "json",
         "success": showPicture,
@@ -32,7 +32,7 @@ function getTitle(){
     $.ajax({
         url: "https://api.nasa.gov/planetary/apod",
         type: "GET",
-        data: { api_key: "JHMqiQcxfQcbZNCFQbEM6WK1EcWDgo02Mw15pZFY",
+        data: { api_key: "DEMO_KEY",
                 date: $("#date").val()},
         dataType: "json",
         "success": showTitle,
